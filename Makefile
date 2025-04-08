@@ -6,10 +6,10 @@ FILENAME=01--print-horizontal-histogram-of-length-of-words-using-function-pointe
 all: build run
 
 build:
-	$(CC) $(FLAGS) $(FILENAME).c -o $(FILENAME).out
+	$(CC) $(FLAGS) $(FILENAME).c -o a.out
 
 run:
-	$(FILENAME).out
+	./a.out
 
 clean:
-	rm -fr $(FILENAME).out $(FILENAME).out.dSYM
+	rm -fr a.out a.out.dSYM
