@@ -32,6 +32,7 @@ int main(){
   for(int i = 0 ; i < SIZE ; i++){
       printf("%5d ",a[i]);
   }
+  puts("");
 }
 
 void bubbleSort(int (*compare)(int,int),int arr[],int size){

@@ -9,7 +9,7 @@ build:
 	$(CC) $(FLAGS) $(FILENAME).c -o a.out
 
 run:
-	./a.out
+	a.out
 
 clean:
 	rm -fr a.out a.out.dSYM
